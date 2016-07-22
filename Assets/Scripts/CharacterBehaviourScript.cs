@@ -59,12 +59,13 @@ public class CharacterBehaviourScript : MonoBehaviour {
 		if ((Input.GetMouseButtonDown(0)) && shootFlag) {
 			Debug.Log ("guk");
 			Vector2 bulletPos;
-			Vector2 arah = new Vector2 ( Input.mousePosition.x-gameObject.transform.position.x, Input.mousePosition.y- gameObject.transform.position.y );
-		
-			bulletPrefab.GetComponent<ConstantForce2D>().relativeForce= (arah *10f);
-				Debug.Log (bulletPrefab.GetComponent<Rigidbody2D> ().velocity);
-				bulletPos = new Vector2 (GetComponent<BoxCollider2D> ().bounds.min.x, GetComponent<BoxCollider2D> ().bounds.min.y + posBullet);
+			Vector2 arah = new Vector2 ( Camera.main.ScreenToWorldPoint( Input.mousePosition).x-gameObject.transform.position.x,Camera.main.ScreenToWorldPoint(Input.mousePosition).y- gameObject.transform.position.y );
 
+			Debug.Log (arah);
+			bulletPrefab.GetComponent<ConstantForce2D>().relativeForce= (arah *100f);
+			Debug.Log (bulletPrefab.GetComponent<Rigidbody2D> ().velocity);
+			//bulletPos = new Vector2 (GetComponent<BoxCollider2D> ().bounds.min.x, GetComponent<BoxCollider2D> ().bounds.min.y + posBullet);
+			bulletPos= gameObject.transform.position;
 			Instantiate(bulletPrefab,bulletPos,bulletPrefab.transform.rotation);
 			shootFlag=false;
 			StartCoroutine("changeShootFlag");

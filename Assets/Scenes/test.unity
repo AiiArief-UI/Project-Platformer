@@ -197,12 +197,12 @@ MonoBehaviour:
   wall:
     serializedVersion: 2
     m_Bits: 0
-  jumpForce: 1000
+  jumpForce: 500
   moveForce: 185
   maxSpeed: 4
   posBullet: 0.5
   maxHp: 0
-  shootInterval: 0
+  shootInterval: 1
   hpBar: {fileID: 0}
 --- !u!1 &689415004
 GameObject:
