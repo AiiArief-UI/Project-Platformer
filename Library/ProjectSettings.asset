@@ -117,8 +117,11 @@ PlayerSettings:
     m_Bits: 238
   iPhoneSdkVersion: 988
   iPhoneTargetOSVersion: 22
+<<<<<<< HEAD
   tvOSSdkVersion: 0
   tvOSTargetOSVersion: 900
+=======
+>>>>>>> 6d7c2ed7e3fef5f13f7ef561d9c8b6d5cef3d2fb
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
@@ -198,7 +201,10 @@ PlayerSettings:
   wiiUSystemHeapSize: 128
   wiiUTVStartupScreen: {fileID: 0}
   wiiUGamePadStartupScreen: {fileID: 0}
+<<<<<<< HEAD
   wiiUDrcBufferDisabled: 0
+=======
+>>>>>>> 6d7c2ed7e3fef5f13f7ef561d9c8b6d5cef3d2fb
   wiiUProfilerLibPath: 
   actionOnDotNetUnhandledException: 1
   enableInternalProfiler: 0
@@ -266,7 +272,10 @@ PlayerSettings:
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
   ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
+<<<<<<< HEAD
   ps4UseDebugIl2cppLibs: 0
+=======
+>>>>>>> 6d7c2ed7e3fef5f13f7ef561d9c8b6d5cef3d2fb
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -332,7 +341,10 @@ PlayerSettings:
   psp2UseLibLocation: 0
   psp2InfoBarOnStartup: 0
   psp2InfoBarColor: 0
+<<<<<<< HEAD
   psp2UseDebugIl2cppLibs: 0
+=======
+>>>>>>> 6d7c2ed7e3fef5f13f7ef561d9c8b6d5cef3d2fb
   psmSplashimage: {fileID: 0}
   spritePackerPolicy: 
   scriptingDefineSymbols: {}

@@ -85,6 +85,7 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &68288770
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +240,8 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 114284428}
+=======
+>>>>>>> 6d7c2ed7e3fef5f13f7ef561d9c8b6d5cef3d2fb
 --- !u!1 &385647961
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,6 +329,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+<<<<<<< HEAD
 --- !u!1 &388375602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1986,3 +1990,5 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2036558137}
+=======
+>>>>>>> 6d7c2ed7e3fef5f13f7ef561d9c8b6d5cef3d2fb
